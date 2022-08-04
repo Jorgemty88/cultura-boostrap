@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden ;
+    background-color: rgb(33,37,41);
+}
+
+html{
+    height: 100%;
+}
+#menu a{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+li:hover a{
+    background-color: black;
+}
+
+#menu button{
+    font-size: 14px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height: 50rem;
+}
+footer{
+    background: black;
+    min-height: 100px;
+}
+
+#iconos i{
+    font-size: 20px;
+    padding: 0 8px;
+    color: white;
+}
+
+#discos .col-lg-3{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+
+#discos img{
+    width: 100%;
+    height: 250px;
+}
+
+#discos img:hover{
+    border: 5px solid rgb(33,37,41);
+}
+
+#videos .col-lg-3{
+    margin: 0 !important;
+    padding: 5px;
+}
+
+#videos iframe{
+    width: 100%;
+
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+form textarea{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#boton{
+    background: gray;
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
